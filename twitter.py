@@ -4,13 +4,13 @@ import pandas as pd
 import re
 from textblob import TextBlob 
 from bs4 import BeautifulSoup
-from pandas.io.json import json_normalize
+from pandas import json_normalize
 from nltk.tokenize import WordPunctTokenizer
 
-consumer_key = "from twitter"
-consumer_secret = "from twitter "
-oauth_token = "from twitter "
-oauth_token_secret = "from twitter "
+consumer_key = "<copy from twitter account>"
+consumer_secret = "<copy from twitter account>"
+oauth_token = "<copy from twitter account>"
+oauth_token_secret = "<copy from twitter account>"
 hash_tag = "plastic"
 num_of_record = 10
 file_path = 'sample.csv'
